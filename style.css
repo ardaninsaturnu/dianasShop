@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+.navbar {
+  min-height: 120px;
+  padding: 2rem;
+}
+
+.dropdown-menu {
+  width: 20rem;
+  padding: 1rem;
+}
+
+.product-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  grid-column: 1rem;
+}
+
+.img-box {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+.card-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: start;
+  margin-top: 5rem;
+}
+
+.card {
+  width: 30%;
+  margin: 1rem;
+  height: auto;
+}
+
+.similar {
+  margin: 3rem;
+}
+
+.carousel-cell {
+  width: 28%;
+  height: 200px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.carousel-cell.is-selected {
+  border-width: 1px;
+  border-style: solid;
+  border-color: gold;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+.s-img-box {
+  width: 50%;
+}
+
+.similar-info {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer {
+  min-height: 400px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-color: #8c8;
+}
